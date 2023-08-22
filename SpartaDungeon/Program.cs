@@ -224,7 +224,7 @@ namespace SpartaDungeon
 
             Console.WriteLine("[상점]");
             Console.WriteLine("아이템을 구입하거나 판매할 수 있습니다.");
-            Console.WriteLine();
+            Console.WriteLine($"\n보유 골드 : {player.Gold}\n");
 
             //아이템 배열 내용 전체 출력, 플레이어가 보유 중인 아이템은 별도의 표시 추가
             if (itemList.Length > 0)
